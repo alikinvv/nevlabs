@@ -360,6 +360,13 @@ h2 {
         margin-bottom: 32px;
     }
 
+    &__logo {
+        position: absolute;
+        bottom: 18px;
+        right: -63px;
+        z-index: 3;
+    }
+
     &__item {
         @include r(1279) {
             padding: 0 10px;
@@ -397,7 +404,7 @@ h2 {
 
             margin: 0 auto 30px;
             position: relative;
-            width: 300px;
+            width: 258px;
 
             &:before {
                 content: '';
